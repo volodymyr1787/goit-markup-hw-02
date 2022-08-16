@@ -1,0 +1,51 @@
+:root {
+    --primery-text-color: #212121;
+    --accent-color: #2196F3;
+    --item-color: #757575;
+}
+body {
+    color: var(--primery-text-color);
+}
+
+/* хедер */
+.logo {
+    color: #000000;
+}
+.logo-web {
+    color: #2196F3;
+}
+.list {
+    list-style-type: none;
+}
+
+
+/* навігація */
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color); 
+}
+/* контакти */
+.contacts .link {
+    color: #757575;
+}
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/* main */
+/* hero */
+/* section */
+.section {
+}
+.feature-list .item,
+.teamcard-list .item,
+.project-list .item {
+    color: var(--item-color);
+}
+/* Особливості */
+/* Чим ми займаємося */
+/* Наша команда */
