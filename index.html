@@ -4,14 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/styles.css" />
     <title>WebStudio</title>
   </head>
   <body>
     <!--Верхня лінія-->
     <header>
-      <nav>
-        <a class="logo" href="./index.html"><span class="logo-web">Web</span>Studio</a>
+      <nav class="navigation">
+        <a class="logo" href="./index.html">Web<span class="logo-studio">Studio</span></a>
         <ul class="site-nav list">
           <li><a class="link current" href="./index.html">Студія</a></li>
           <li><a class="link" href="./portfolio.html">Портфоліо</a></li>
@@ -28,12 +32,12 @@
       <!--Замовлення послуг-->
       <section class="hero">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+        <button class="btn" type="button">Замовити послугу</button>
       </section>
       <!--особливості-->
       <section class="section">
         <h2 class="section-title">Особливості</h2>
-        <ul class="feature-list">
+        <ul class="feature-list list">
           <li>
             <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="item">
@@ -61,7 +65,7 @@
       <!--Чим ми займаємося-->
       <section class="section">
         <h2 class="section-title">Чим ми займаємося</h2>
-        <ul>
+        <ul class="work-list list">
           <li>
             <img
               src="images/img1.jpg"
@@ -84,9 +88,9 @@
         </ul>
       </section>
       <!--Наша команда-->
-      <section class="section">
+      <section class="section team">
         <h2 class="section-title">Наша команда</h2>
-        <ul class="teamcard-list">
+        <ul class="teamcard-list list">
           <li>
             <img src="images/img4.jpg" alt="фото Ігор Дем'яненко" width="270" height="260" />
             <h3 class="title">Ігор Дем'яненко</h3>
@@ -111,20 +115,21 @@
       </section>
     </main>
     <!--Підвал-->
-    <footer>
-      <a href="./index.html">WebStudio</a>
+    <footer class="footer">
+      <a class="logo" href="./index.html">Web<span class="logo-studio">Studio</span></a>
       <address>
-        <ul>
+        <ul class="address-list list">
           <li>
             <a
+              class="link-map"
               href="https://goo.gl/maps/TMpKUP9idhzFjyQV7"
               target="_blank"
               rel="noopener nofollow noreferrer"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>
