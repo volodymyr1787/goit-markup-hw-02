@@ -142,19 +142,26 @@ body {
 
 .team {
     background: var(--light-fon);
+
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.card-igor,
+.card-olga,
+.card-mikola,
+.card-mihaylo {
+    background-color: var(--primary-white-fon);
 }
 
 .teamcard-list .title {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
+   
 }
 
 .teamcard-list .item {
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
+
 }
 
 
@@ -182,10 +189,20 @@ body {
     text-decoration: none;
 }
 
+.address-list .link-map:hover,
+.address-list .link-map:focus {
+    color: var(--accent-color);
+}
+
 
 .address-list .link {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+}
+
+.address-list .link:hover,
+.address-list .link:focus {
+    color: var(--accent-color);
 }
 
 
