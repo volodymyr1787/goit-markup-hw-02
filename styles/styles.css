@@ -6,7 +6,8 @@
     --accent-color: #2196F3;
     --item-text-color: #757575;
     --dark-fon: #2F303A;
-    --light-fon: #F5F4FA;
+    --grey-fon: #F5F4FA;
+    --light-fon: #EEEEEE;
 
 }
 
@@ -141,17 +142,14 @@ body {
 /* Наша команда */
 
 .team {
-    background: var(--light-fon);
+    background: var(--grey-fon);
 
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
 }
 
-.card-igor,
-.card-olga,
-.card-mikola,
-.card-mihaylo {
+.card {
     background-color: var(--primary-white-fon);
 }
 
@@ -214,7 +212,7 @@ body {
     line-height: 1.62;
     text-align: center;
 
-    background: var(--light-fon);
+    background: var(--grey-fon);
     border-radius: 4px;
 
     cursor: pointer;
@@ -232,7 +230,7 @@ body {
 
 .project-list {
     background: var(--primary-white-color);
-    border: 1px solid #EEEEEE;
+    border: 1px solid var(--light-fon);
 }
 
 .project-list .title {
@@ -245,6 +243,9 @@ body {
 .project-list .item {
     font-size: 16px;
     line-height: 1.88;
+}
+
+.project {
 }
 
 
